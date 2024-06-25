@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this to src/styles.css */
+.btn {
+    @apply bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-500 text-white py-2 px-4 rounded hover:bg-gray-700;
+  }
+  
+  .btn-danger {
+    @apply bg-red-500 text-white py-2 px-4 rounded hover:bg-red-700;
+  }
+  
+  .input {
+    @apply w-full px-3 py-2 border rounded;
+  }
+  
+  .textarea {
+    @apply w-full px-3 py-2 border rounded h-24;
+  }
+  
